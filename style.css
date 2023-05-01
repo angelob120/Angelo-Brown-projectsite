@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* section 1 starts */
+.sec-1-background{
+    background-color: #00ABFF;
+}
+
+
+/* sec-1: parent container of the section, for styling purposes */
+.sec-1 {
+    color: #ffffff;
+}
+
+/* sec-1-row: container for the text and image content, responsible for layout and positioning */
+.sec-1-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px 0;
+}
+
+/* sec-1-text: container for the text content, responsible for text alignment and positioning */
+.sec-1-text {
+    width: 50%;
+    text-align: center;
+}
+
+
+.sec-1-text-p-1{
+    font-size: 1.5em;
+}
+
+.sec-1-text-h1-1{
+    font-size: 3.5em;
+}
+
+.sec-1-text-p-2{
+    margin-top: 5%;
+    font-size: 1.8em;
+}
+
+.sec-1-text-h1-2{
+    font-size: 3em;
+}
+
+
+
+/* sec-1-image: container for the image content, responsible for image alignment and positioning */
+.sec-1-image {
+    width: 50%;
+    text-align: right;
+}
+
+/* sec-1-image img: styles for the image */
+.sec-1-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+
+}
+
+/* Circular Black Button Styles */
+
+/* sec-1-button-container: container for positioning and alignment of the button */
+.sec-1-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+/* sec-1-button: styles for the circular black button */
+.sec-1-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* sec-1-button:hover: styles for the button when hovered */
+.sec-1-button:hover {
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.sec-1-btn-text{
+    font-size: 1.5em;
+    padding: 10px 20px;
+
+}
+
+
+/* section 1 ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2 starts */
+
+/* Container for section 1 */
+.sec-1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Text style */
+.sec-1-text {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Image container */
+.sec-1-image-container {
+    width: 50%;
+}
+
+/* Image style */
+.sec-1-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Container for section 2 */
+.sec-2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Image container */
+.sec-2-image-container {
+    width: calc(33.333% - 20px);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image style */
+.sec-2-image {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+/* Image hover effect */
+.sec-2-image-container:hover .sec-2-image {
+    transform: scale(1.1);
+}
+
+/* Section 2 ends */
