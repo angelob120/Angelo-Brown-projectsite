@@ -55,13 +55,13 @@
 
 /* sec-1-image: container for the image content, responsible for image alignment and positioning */
 .sec-1-image {
-    width: 50%;
+    width: 80%;
     text-align: right;
 }
 
 /* sec-1-image img: styles for the image */
 .sec-1-image img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 25px;
 
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 /* sec-1-button: styles for the circular black button */
@@ -89,7 +89,7 @@
 }
 
 /* sec-1-button:hover: styles for the button when hovered */
-.sec-1-button:hover {
+.sec-2-button:hover {
     transform: scale(1.1);
 }
 
@@ -119,60 +119,381 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Section 2 starts */
 
-/* Container for section 1 */
-.sec-1-container {
+.sec-2{
+    background-color: #E1EEEF;
+}
+/* Container for section 2 */
+.sec-2-container-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
+    text-align: center;
+    align-items: center;
 }
 
 /* Text style */
-.sec-1-text {
-    width: 50%;
+.sec-2-text {
+    width: 100%;
     padding: 20px;
+    margin-right: 2.5%;
+    
+
 }
 
+.sec-2-text h1 {
+font-size: 3em;
+
+}
+
+/* Circular Black Button Styles */
+
+/* sec-2-button-container: container for positioning and alignment of the button */
+.sec-2-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sec-1-button: styles for the circular black button */
+.sec-2-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* sec-1-button:hover: styles for the button when hovered */
+.sec-2-button:hover {
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.sec-2-btn-text{
+    font-size: 1.5em;
+    padding: 10px 20px;
+
+}
+
+
 /* Image container */
-.sec-1-image-container {
-    width: 50%;
+.sec-2-image-container-1 {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
+.sec-2-image-container-1 h1{
+    margin-top: 5%;
+    font-size: 3em;
 }
 
 /* Image style */
-.sec-1-image {
-    width: 100%;
+.sec-2-image-1 {
+    width: 80%;
+    border-radius: 25px;
     object-fit: cover;
+    transition: transform 0.3s;
+    
+}
+
+.sec-2-image-1:hover  {
+    transform: scale(1.1);
+    object-fit: cover;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    
 }
 
 
 /* Container for section 2 */
-.sec-2-container {
+.sec-2-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Image container */
+.sec-2-image-container-2 {
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 10px;
+    margin-top: 5%;
+}
+
+/* Image style */
+.sec-2-image-2 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    margin-bottom: 10%;
+}
+
+/* Image hover effect */
+.sec-2-image-container-2:hover .sec-2-image-2 {
+    transform: scale(1.1);
+}
+
+
+
+/* sec-2-button-container: container for positioning and alignment of the button */
+.sec-2-button-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+}
+
+/* sec-1-button: styles for the circular black button */
+.sec-2-button-2 {
+    background-color: black;;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 14px 28px;
+}
+
+/* sec-1-button:hover: styles for the button when hovered */
+.sec-2-button:hover {
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.sec-2-btn-text-2{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: #000;
+    border-color: #000;
+    border-radius: 2px;
+
+}
+
+.sec-2-btn-text-3{
+    color: black;
+}
+
+.sec-2-h1-btn{
+    color: black;
+}
+
+/* Section 2 ends */
+
+
+
+
+/* section 3 starts */
+
+.sec-3-background{
+    background-color: #00ABFF;
+}
+
+/* Section 3 container */
+.sec-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+/* Left side text container */
+.sec-3-left {
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    color: white;
+}
+
+.sec-3-left h1{
+    font-size: 3.5em;
+}
+
+/* Right side container */
+.sec-3-right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* Square styling */
+.sec-3-square {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 90%;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-top: 2.5%;
+}
+
+.sec-3-square h1{
+    color: #00ABFF;
+}
+
+
+.sec-3-square p{
+    font-size: 1.2em;
+}
+
+
+/* section 3 ends */
+
+
+
+
+
+
+
+
+
+
+/* section 4 starts */
+
+.sec-4-background{
+    background-color: #E1EEEF;
+}
+
+/* Section 3 container */
+.sec-4-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 
-/* Image container */
-.sec-2-image-container {
-    width: calc(33.333% - 20px);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+/* Left side text container */
+.sec-4-left {
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    color:  black;
 }
 
-/* Image style */
-.sec-2-image {
+.sec-4-left h1{
+    font-size: 3.5em;
+}
+
+/* Right side container */
+.sec-4-right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* Square styling */
+.sec-4-square {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 90%;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-top: 2.5%;
+
+}
+
+.sec-4-square h1{
+    color: #00ABFF;
+}
+
+
+.sec-4-square p{
+    font-size: 1.2em;
+}
+
+
+/* section 4 ends */
+
+
+
+/* section 5 starts */
+
+/* Container for section 5 content */
+.sec-5{
+    background-color: #00ABFF;
+}
+.sec-5-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    object-fit: cover;
-    transition: transform 0.3s;
+    padding: 20px;
 }
 
-/* Image hover effect */
-.sec-2-image-container:hover .sec-2-image {
-    transform: scale(1.1);
+/* Left side text container */
+.sec-5-left {
+    width: 45%;
+    text-align: left;
+    font-size: 1.8em;
+    color: white;
 }
 
-/* Section 2 ends */
+/* Right side text container */
+.sec-5-right {
+    width: 45%;
+    text-align: left;
+    color: white;
+}
+
+.sec-5-right h2{
+  font-size: 1.5em;
+}
+
+.sec-5-right p{
+    font-size: 1.5em;
+  }
+  
+
+/* section 5 ends */
