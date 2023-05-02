@@ -779,27 +779,21 @@ a{
 
     .sec-4-right{
         margin-bottom: 10%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
     }
     .sec-4-container {
         flex-direction: column;
     }
 
-    .sec-4-square{
+
+
+    .sec-4-left{
+        width: 100%;
+    }
+
+    .sec-4-right{
+        width: 100%;
         margin-left: 20%;
         margin-right: 20%;
-    }
-
-    .sec-4-left,
-    .sec-3-left {
-        width: 100%;
-    }
-
-    .sec-4-right,
-    .sec-3-right {
-        width: 100%;
     }
 }
 
