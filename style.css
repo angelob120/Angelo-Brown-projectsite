@@ -390,8 +390,9 @@ a{
     transition: transform 0.3s ease;
     padding: 14px 28px;
     margin-right: 5%;
-    margin-left: 5%;
 }
+
+
 
 
 /* sec-1-button:hover: styles for the button when hovered */
@@ -439,6 +440,9 @@ a{
   
     .sec-2-image-container-1 h1 {
       font-size: 2.4em;
+    }
+    .BTN-space{
+        margin-right: 5%;
     }
   }
   
