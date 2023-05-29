@@ -714,6 +714,16 @@ a{
     transition: transform 0.3s ease;
 }
 
+.sec-4-button-bio {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
 
 a{
     text-decoration: none;
