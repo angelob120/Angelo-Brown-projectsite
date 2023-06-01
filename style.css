@@ -317,6 +317,17 @@ a{
     
 }
 
+/* Image style */
+.sec-2-image-4 {
+    width: 40%;
+    border-radius: 25px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    margin-bottom: 5%;
+    
+}
+
+
 
 
 .sec-2-image-1:hover  {
