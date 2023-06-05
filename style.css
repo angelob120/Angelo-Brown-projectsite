@@ -68,6 +68,27 @@
 
 }
 
+.sec-1-tech-stack-row{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.sec-1-tech-stack-row{
+    font-size: x-large;
+}
+
+
+.sec-1-img-width{
+    width: 15%;
+}
+
+.sec-1-image-row{
+    margin-top: 2.5%;
+}
+
+
 /* Circular Black Button Styles */
 
 /* sec-1-button-container: container for positioning and alignment of the button */
