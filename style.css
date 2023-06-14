@@ -285,6 +285,33 @@ font-size: 2.8em;
 
 /* Circular Black Button Styles */
 
+
+/* sec 2 header start*/
+
+.sec-2-headerline-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+.sec-2-headerline-text h1{
+    font-size: 3em;
+    margin-left: 1.5%;
+}
+
+.sec-2-img-width{
+    width: 5%;
+}
+
+.sec-2-headerline-text img{
+    display: inline;
+}
+
+/* sec 2 header ends*/
+
+
+
 /* sec-2-button-container: container for positioning and alignment of the button */
 .sec-2-button-container {
     display: flex;
