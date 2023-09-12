@@ -735,6 +735,10 @@ a{
     background-color: #E1EEEF;
 }
 
+.sec-4{
+    margin-bottom: -2%;
+}
+
 
 
 /* Section 3 container */
@@ -997,3 +1001,16 @@ a{
 
 
 /* section 5 moblie optimization */
+
+
+
+
+
+.sec-2-button:hover {
+    transform: scale(1.1);
+}
+
+.sec-2-button-2:hover{
+    transform: scale(1.1);
+}
+
